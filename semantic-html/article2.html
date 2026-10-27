@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic HTML – Meine Webseite</title>
+
+  
+</head>
+
+<body>
+
+  <!-- HEADER: Kopfbereich der Webseite -->
+  <header class="site-header" id="start">
+    <h1>Meine erste semantische Webseite</h1>
+    <p>Ich lerne HTML mit The Odin Project.</p>
+  </header>
+
+  <!-- NAV: Navigation der Webseite -->
+  <nav>
+    <a href="#start">Startseite</a>
+    <a href="#artikel">Artikel</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <!-- MAIN: Hauptinhalt -->
+  <main>
+
+    <!-- ARTICLE: Eigenständiger Artikel -->
+    <article id="artikel">
+
+      <header>
+        <h2>Mein erster HTML-Artikel</h2>
+
+        <p>
+          Veröffentlicht am
+          <time datetime="2026-10-26">
+            26. Oktober 2026
+          </time>
+        </p>
+      </header>
+
+      <!-- SECTION: Erster Themenabschnitt -->
+      <section>
+        <h3>Was ist HTML?</h3>
+
+        <p>
+          HTML steht für HyperText Markup Language.
+          Mit HTML definieren wir die Struktur
+          und Bedeutung einer Webseite.
+        </p>
+      </section>
+
+      <!-- SECTION: Zweiter Themenabschnitt -->
+      <section>
+        <h3>Was bedeutet Semantic HTML?</h3>
+
+        <p>
+          Semantisches HTML bedeutet, dass wir
+          HTML-Elemente passend zum Inhalt verwenden.
+        </p>
+
+        <p>
+          Zum Beispiel verwenden wir article
+          für einen eigenständigen Artikel und
+          section für einen thematischen Abschnitt.
+        </p>
+      </section>
+
+      <!-- SECTION: Dritter Themenabschnitt -->
+      <section>
+        <h3>HTML und CSS</h3>
+
+        <figure>
+          <div class="illustration">
+            HTML = Struktur
+            <br>
+            CSS = Design
+          </div>
+
+          <figcaption>
+            Abbildung 1: HTML und CSS haben
+            unterschiedliche Aufgaben.
+          </figcaption>
+        </figure>
+
+        <p>
+          HTML beschreibt den Inhalt.
+          CSS bestimmt, wie dieser Inhalt aussieht.
+        </p>
+      </section>
+
+      <!-- DIV: Allgemeiner Container -->
+      <div>
+        <p>
+          <strong>Merke:</strong>
+          Ein div hat keine eigene semantische Bedeutung.
+        </p>
+      </div>
+
+    </article>
+
+    <!-- ASIDE: Ergänzende Informationen -->
+    <aside>
+      <h2>Zusatzinformationen</h2>
+
+      <p>
+        Dieser Bereich enthält Informationen,
+        die den Hauptartikel ergänzen.
+      </p>
+
+      <h3>Wichtige Elemente</h3>
+
+      <ul>
+        <li>header</li>
+        <li>nav</li>
+        <li>main</li>
+        <li>article</li>
+        <li>section</li>
+        <li>aside</li>
+        <li>footer</li>
+      </ul>
+    </aside>
+
+  </main>
+
+  <!-- FOOTER: Fußbereich -->
+  <footer id="kontakt">
+    <h2>Kontakt</h2>
+
+    <address>
+      Kontakt:
+      <a href="mailto:kontakt@example.com">
+        kontakt@example.com
+      </a>
+    </address>
+
+    <p>&copy; 2026 Kaisar – Meine erste Webseite</p>
+  </footer>
+
+</body>
+</html>
